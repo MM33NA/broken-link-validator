@@ -19,10 +19,12 @@ This project automates the process of checking whether URLs in datasets are work
 ```bash
 pip install pandas requests openpyxl
 python broken_links.py
+```
 
 Input: Excel file containing a URL column
 Output: Excel file with a new column Status showing each link’s result
 
 Example Output:
-![Alt text for the image](example.png)
+![Broken Link Validator Output](images/broken_link_output.png)
+
 
