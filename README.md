@@ -16,6 +16,7 @@ This project automates the process of checking whether URLs in datasets are work
 - 🧾 Customizable & reproducible  
 
 **Input:** Excel file containing a URL column
+
 **Output:** Excel file with a new column Status showing each link’s result
 
 ## 💻 Usage
