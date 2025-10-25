@@ -28,4 +28,18 @@ python broken_links.py
 Example Output:
 ![Broken Link Validator Output](images/broken_link_output.png)
 
+## ERROR description
 
+- If response.status_code == 200, then the URL is considered "Working" in your script.
+- 301 Moved Permanently → The URL has changed permanently, and future requests should use the new URL.
+- 302 Found (Temporary Redirect): The resource is temporarily moved to another location.
+- HTTP 403 (Forbidden) → "Blocked (403 Forbidden)"
+
+**Possible causes:**
+- Website blocks automated requests (bot protection).
+- Missing authentication or permission.
+- IP restrictions.
+- 404 Not Found -> The requested URL does not exist.
+- 500 Internal Server Error -> The server encountered an error.
+- 405 Method Not Allowed -> The request method is not supported by the server.
+- 503 Service Unavailable -> The server is down or overloaded.
